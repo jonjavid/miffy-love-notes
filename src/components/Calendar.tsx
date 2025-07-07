@@ -83,7 +83,7 @@ const Calendar: React.FC<CalendarProps> = ({ selectedDate, onDateSelect }) => {
             className="bg-white/70 backdrop-blur-sm border-miffy-pink hover:bg-miffy-pink-light transition-all duration-300 rounded-full px-6 py-2 hover:scale-105"
           >
             <CalendarIcon size={16} className="mr-2" />
-            Browse Love Notes
+            Browse Notes
           </Button>
         </PopoverTrigger>
         <PopoverContent className="w-auto p-4 bg-white/90 backdrop-blur-sm border-miffy-pink rounded-2xl animate-scale-in">
