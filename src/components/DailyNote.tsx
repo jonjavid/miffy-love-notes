@@ -2,6 +2,7 @@
 import React from 'react';
 import { Heart } from 'lucide-react';
 import BunnyEars from './BunnyEars';
+import { dailyNotes } from '../data/dailyNotes';
 
 interface DailyNoteProps {
   noteNumber: number;
@@ -9,6 +10,9 @@ interface DailyNoteProps {
 }
 
 const DailyNote: React.FC<DailyNoteProps> = ({ noteNumber, date }) => {
+  // Get the note for the current day (noteNumber is 1-indexed, array is 0-indexed)
+  const currentNote = dailyNotes[noteNumber - 1] || "A gentle reminder that you are valued and appreciated.";
+
   return (
     <div className="max-w-md mx-auto">
       <BunnyEars />
@@ -27,8 +31,7 @@ const DailyNote: React.FC<DailyNoteProps> = ({ noteNumber, date }) => {
             Note #{String(noteNumber).padStart(3, '0')}
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            A sweet love note will appear here, filled with warmth and tenderness. 
-            Each day brings a new message of love and joy to brighten your heart.
+            {currentNote}
           </p>
         </div>
         
