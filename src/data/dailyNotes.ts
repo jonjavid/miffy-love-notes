@@ -350,7 +350,7 @@ export const dailyNotes = [
   // Notes 291-300
   "The version of you that’s healing deserves as much love as the version that’s thriving.",
   "You have permission to grow at your own rhythm, even if no one else understands it.",
-  "Your softness is not something to toughen up. It’s something to protect and treasure."
+  "Your softness is not something to toughen up. It’s something to protect and treasure.",
   "You are not behind. You are simply moving in a direction that’s true to you.",
   "Some days are for conquering, but others are simply to rest. Take each day as you need it Liz",
   "You don’t need to have all the words to express yourself. It's okay to not be able at times.",
@@ -393,7 +393,7 @@ export const dailyNotes = [
   "Distance doesn't cancel out the compassion that once existed. The love that was given freely remains, tucked into the folds of memory.",
   "You don't have to settle for surface-level connections.",
   "Your depth and authenticity attract the right people.",
-  "ncouragement given from the heart never really leaves. It plants itself in the quiet places you return to when you need rest.",
+  "Encouragement given from the heart never really leaves. It plants itself in the quiet places you return to when you need rest.",
   
   // Notes 331-340
   "It’s something remarkable—to grow through pain, to stay soft through hardship, and to still choose to believe in better.",
