@@ -303,7 +303,7 @@ export const dailyNotes = [
   "There’s a place in this world that only your presence can fill. Don’t forget that.",
   "Even when you’re doubting yourself, someone out there sees your light and believes in you.",
   "You don’t need to have all the answers to be deserving of peace.",
-  "Today might not feel amazing—but you’re still here. And that matters more than you know."
+  "Today might not feel amazing—but you’re still here. And that matters more than you know.",
   "You're allowed to embrace what makes you different.",
   "You don't need a reason to deserve kindness. Just being here is enough.",
   "Growth doesn’t always feel like progress. Sometimes it looks like rest, stillness, or uncertainty.",
