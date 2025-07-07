@@ -72,7 +72,7 @@ const Index = () => {
             <Heart size={24} className="text-heart-red animate-heart-float" fill="currentColor" style={{ animationDelay: '1s' }} />
           </div>
           <p className="text-gray-600 max-w-md mx-auto animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            A collection of reassuring notes, 
+            A collection of reassuring notes to read every day of the year, 
             For when life isn't so easy
           </p>
         </header>
