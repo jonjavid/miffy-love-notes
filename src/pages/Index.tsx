@@ -9,6 +9,8 @@ import { Heart } from 'lucide-react';
 const Index = () => {
   // Start date: July 17, 2024
   const startDate = new Date(2024, 6, 17);
+  // End date: July 5, 2025 (353 days total)
+  const endDate = new Date(2025, 6, 5);
   const [selectedDate, setSelectedDate] = useState(startDate);
   const [currentNoteNumber, setCurrentNoteNumber] = useState(1);
 
@@ -19,11 +21,19 @@ const Index = () => {
     return Math.max(0, diffDays) + 1; // +1 because we start at day 1, not 0
   };
 
+  // Calculate total days between start and end date
+  const getTotalDays = () => {
+    const diffTime = endDate.getTime() - startDate.getTime();
+    return Math.floor(diffTime / (1000 * 60 * 60 * 24)) + 1;
+  };
+
+  const totalDays = getTotalDays(); // 353 days
+
   // Update note number when date changes
   useEffect(() => {
     const noteNumber = getDaysSinceStart(selectedDate);
-    setCurrentNoteNumber(Math.min(Math.max(noteNumber, 1), 365));
-  }, [selectedDate]);
+    setCurrentNoteNumber(Math.min(Math.max(noteNumber, 1), totalDays));
+  }, [selectedDate, totalDays]);
 
   const handleDateSelect = (date: Date) => {
     setSelectedDate(date);
@@ -33,7 +43,7 @@ const Index = () => {
     const newDate = new Date(selectedDate);
     if (direction === 'prev' && currentNoteNumber > 1) {
       newDate.setDate(newDate.getDate() - 1);
-    } else if (direction === 'next' && currentNoteNumber < 365) {
+    } else if (direction === 'next' && currentNoteNumber < totalDays) {
       newDate.setDate(newDate.getDate() + 1);
     }
     setSelectedDate(newDate);
@@ -81,6 +91,7 @@ const Index = () => {
 
         <Navigation 
           currentNote={currentNoteNumber}
+          totalNotes={totalDays}
           onNavigate={handleNavigate}
         />
 

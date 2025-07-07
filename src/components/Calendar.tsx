@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Calendar as CalendarIcon, ArrowLeft, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -13,9 +12,9 @@ interface CalendarProps {
 const Calendar: React.FC<CalendarProps> = ({ selectedDate, onDateSelect }) => {
   const [currentMonth, setCurrentMonth] = React.useState(new Date());
   
-  // Define date range: July 17, 2024 to July 17, 2025
+  // Define date range: July 17, 2024 to July 5, 2025
   const startDate = new Date(2024, 6, 17); // July 17, 2024
-  const endDate = new Date(2025, 6, 17); // July 17, 2025
+  const endDate = new Date(2025, 6, 5); // July 5, 2025
   
   const getDaysInMonth = (date: Date) => {
     return new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
