@@ -67,13 +67,13 @@ const Index = () => {
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Heart size={24} className="text-heart-red animate-heart-float" fill="currentColor" />
             <h1 className="handwritten text-4xl md:text-5xl text-gray-700">
-              Daily Love Notes
+              365 Notes of Reassurance
             </h1>
             <Heart size={24} className="text-heart-red animate-heart-float" fill="currentColor" style={{ animationDelay: '1s' }} />
           </div>
           <p className="text-gray-600 max-w-md mx-auto animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            A gentle collection of love notes to warm your heart, 
-            inspired by the sweet simplicity of Miffy
+            A collection of reassuring notes, 
+            For when life isn't so easy
           </p>
         </header>
 
@@ -98,7 +98,7 @@ const Index = () => {
         <footer className="text-center mt-16 text-gray-500 text-sm animate-fade-in" style={{ animationDelay: '1s' }}>
           <div className="flex items-center justify-center space-x-2">
             <Heart size={12} fill="currentColor" className="text-miffy-pink" />
-            <span>Made with love and inspired by Miffy's gentle spirit</span>
+            <span>You are deserving of all the kindness the world can offer</span>
             <Heart size={12} fill="currentColor" className="text-miffy-pink" />
           </div>
         </footer>
