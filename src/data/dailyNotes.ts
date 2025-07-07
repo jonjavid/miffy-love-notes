@@ -64,7 +64,7 @@ export const dailyNotes = [
   "You don't have to be strong all the time.",
   "Your worth isn't contingent on other people's approval.",
   "It's okay to feel overwhelmed sometimes.",
-  "You're allowed to make mistakes. Perfection is a fairytail, but growth is forever.",
+  "You're allowed to make mistakes. Perfection is a fairytale, but growth is forever.",
   "Your mental health is just as important as your physical health.",
   "You don't have to prove your worth to anyone.",
   "It's okay to want reassurance when you're feeling uncertain.",
@@ -328,7 +328,7 @@ export const dailyNotes = [
   "You’re allowed to be proud of yourself for getting through invisible battles.",
   "There is nothing wrong with needing more time. Your pace is valid.",
   "Your future isn't ruined. It's being rewritten by a wiser, kinder version of you.",
-  "You haven’t wasted time. You’ve been becoming—quietly, slowly, beautifully."
+  "You haven’t wasted time. You’ve been becoming—quietly, slowly, beautifully.",
   "You don’t have to fix everything to be worthy of peace. Peace belongs to you, even in the mess.",
   "You are allowed to hold joy and sadness at the same time. Both can belong in your heart.",
   "If today all you did was keep going—then that is more than enough.",
